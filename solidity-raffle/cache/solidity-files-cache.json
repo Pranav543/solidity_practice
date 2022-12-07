@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/contracts/Raffle.sol": {
-      "lastModificationDate": 1670445012161,
-      "contentHash": "521049f7ce96262bdfc560fc7a3219cb",
+      "lastModificationDate": 1670448061141,
+      "contentHash": "b93f4b4d05caaf4c85e7ec9260750e3f",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -38,7 +38,7 @@
       "imports": [
         "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
         "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
-        "@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol",
+        "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
         "hardhat/console.sol"
       ],
       "versionPragmas": [
@@ -215,6 +215,48 @@
       "artifacts": [
         "AutomationCompatibleInterface"
       ]
+    },
+    "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/node_modules/@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol": {
+      "lastModificationDate": 1670442128201,
+      "contentHash": "fc398ecdfc4d9dd8ebb15889e8d61f20",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./AutomationCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
     }
   }
 }
