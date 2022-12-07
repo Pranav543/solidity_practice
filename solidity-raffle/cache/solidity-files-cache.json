@@ -2,9 +2,56 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/contracts/Raffle.sol": {
-      "lastModificationDate": 1670176487590,
-      "contentHash": "849e09fc5c212d45def01e92ac5d24df",
+      "lastModificationDate": 1670445012161,
+      "contentHash": "521049f7ce96262bdfc560fc7a3219cb",
       "sourceName": "contracts/Raffle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+        "@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Raffle"
+      ]
+    },
+    "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1670175500820,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.17",
         "settings": {
@@ -37,10 +84,136 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.17"
+        ">= 0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Raffle"
+        "console"
+      ]
+    },
+    "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/node_modules/@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol": {
+      "lastModificationDate": 1670442127971,
+      "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "VRFConsumerBaseV2"
+      ]
+    },
+    "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/node_modules/@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol": {
+      "lastModificationDate": 1670442128201,
+      "contentHash": "8c9ed3426b676f67ee200a2bec96e224",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFCoordinatorV2Interface"
+      ]
+    },
+    "/home/ska2sh/personal_projects/solidity_practice/solidity-raffle/node_modules/@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol": {
+      "lastModificationDate": 1670442128191,
+      "contentHash": "c52969cee392918edbf23f914e01c0dc",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AutomationCompatibleInterface"
       ]
     }
   }
